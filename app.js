@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 
 import { Flip } from "gsap/Flip";
 
-gsap.registerPlugin(Flip, GSDevTools);
+gsap.registerPlugin(Flip);
 
 const perloaderbg = document.querySelector(".preloader__background");
 const preloadertext = document.querySelector(".preloader__text span");
